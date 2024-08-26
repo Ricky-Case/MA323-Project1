@@ -29,6 +29,7 @@ You may assume that v1 and v2 are column vectors of the same size, and that tol 
 (2pt)
 - Read the data set A.csv as a matrix A ∈ R^(30 * 6) via:
 > from numpy import genfromtxt
+
 > A = genfromtxt(’A.csv’, delimiter=’,’)
 
 - Compute the SVD of A and find:
