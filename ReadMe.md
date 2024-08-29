@@ -7,7 +7,7 @@ Write the scripts for the following problems in jupyter notebook and combine the
 (1pt)
 - Write a function vec_add_plot(v1, v2) that visualizes the addition of the two input vectors v1 and v2 in R2.
 
-- If at least one of the inputs is not a two-dimensional vector, then print out an error message.
+- If at least one of the inputs is not a vector of length 2, then print out an error message.
 
 - Test the function with the vectors [4, 2] and [-1, 2].
 (Hint: import numpy and matplotlib packages, and refer to quiver https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.quiver.html)
